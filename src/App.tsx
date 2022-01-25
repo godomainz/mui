@@ -1,15 +1,16 @@
 import React from 'react';
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
+import { ThemeProvider } from '@mui/material/styles';
 import Header from './components/UI/Header/Header';
+import theme from './components/UI/Theme/Theme';
 
 function App() {
   return (
     <div>
-      <Header />
-        Hello
+      <ThemeProvider theme={theme}>
+        <Header />
+          Hello
+      </ThemeProvider>
+      
     </div>
   );
 }

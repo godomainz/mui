@@ -1,7 +1,7 @@
 import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import ElevationScroll from './ElevationScroll/ElevationScroll';
+import ElevationScroll from '../ElevationScroll/ElevationScroll';
 
 const Header = (props:any) => {
     return (
