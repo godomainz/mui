@@ -15,6 +15,11 @@ const theme = createTheme({
         secondary : {
             main: arcOrange
         }
+    },
+    typography: {
+        h3: {
+            fontWeight: 300
+        }
     }
 });
 
