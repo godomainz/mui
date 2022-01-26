@@ -3,6 +3,10 @@ import { makeStyles } from '@mui/styles';
 
 export const useStyles = makeStyles((theme:Theme) => ({
     toolBarMargin: {
-        ...theme.mixins.toolbar
+        ...theme.mixins.toolbar,
+        marginBottom: "3em"
+    },
+    logo: {
+        height: "7em"
     }
 }));
